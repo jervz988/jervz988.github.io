@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kinship Graphics & Prints</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c007e; /* Blue background */
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00; /* Yellow header */
+            color: #333;
+            padding: 20px;
+            display: flex;
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space between logo and title */
+        }
+        header img {
+            width: 100px; /* Logo size */
+            height: auto; /* Maintain aspect ratio */
+        }
+        header h1 {
+            margin: 0;
+            flex-grow: 1; /* Allow title to take up remaining space */
+            text-align: center; /* Center the title */
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #ffb300; /* Darker yellow on hover */
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        main h2 {
+            color: #ffcc00; /* Yellow for headings */
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            min-width: 200px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffcc00; /* Yellow footer */
+            color: #333;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="468836663_1049075230563270_7531906506073275578_n.jpg" alt="Kinship Graphics & Prints Logo"> <!-- Replace with your logo path -->
+        <h1>Kinship Graphics & Prints</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Welcome to Kinship Graphics & Prints</h2>
+        <p>Your one-stop solution for all your graphic design and printing needs. We offer a wide range of products and services to help you make a lasting impression.</p>
+
+        <h3>Our Products</h3>
+        <div class="products">
+            <div class="product">
+                <h4>Business Cards</h4>
+                <p>High-quality business cards that leave a lasting impression.</p>
+            </div>
+            <div class="product">
+                <h4>Brochures</h4>
+                <p>Custom brochures to showcase your products and services.</p>
+            </div>
+            <div class="product">
+                <h4>Posters</h4>
+                <p>Eye-catching posters for events, promotions, and more.</p>
+            </div>
+            <div class="product">
+                <h4>Flyers</h4>
+                <p>Affordable flyers to promote your business effectively.</p>
+            </div>
+            <div class="product">
+                <h4>Stickers</h4>
+                <p>Custom stickers for branding and promotional purposes.</p>
+            </div>
+            <div class="product">
+                <h4>Labels</h4>
+                <p>Personalized labels for products, gifts, and more.</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Kinship Graphics & Prints. All rights reserved.</p>
+    </footer>
+</body>
+</html>
